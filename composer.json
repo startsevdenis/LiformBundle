@@ -1,5 +1,5 @@
 {
-  "name": "limenius/liform-bundle",
+  "name": "startsevdenis/liform-bundle",
   "description": "Bundle for Liform: Transform Symfony Forms into Json Schema",
   "type": "symfony-bundle",
   "license": "MIT",
@@ -15,7 +15,7 @@
     }
   },
   "require": {
-    "limenius/liform": "^0.17.0"
+    "startsevdenis/liform": "^0.17.1"
   },
   "minimum-stability": "stable"
 }
