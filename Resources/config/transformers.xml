@@ -27,11 +27,6 @@
             <tag name="liform.transformer" form_type="compound"/>
         </service>
 
-        <service id="liform.transformer.choice" class="Limenius\Liform\Transformer\ChoiceTransformer"
-                 parent="Limenius\Liform\Transformer\AbstractTransformer">
-            <tag name="liform.transformer" form_type="choice"/>
-        </service>
-
         <service id="liform.transformer.string" class="Limenius\Liform\Transformer\StringTransformer"
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <tag name="liform.transformer" form_type="text"/>
