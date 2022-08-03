@@ -49,11 +49,6 @@
                  parent="Limenius\Liform\Transformer\AbstractTransformer">
             <tag name="liform.transformer" form_type="number"/>
         </service>
-
-        <service id="liform.transformer.boolean" class="Limenius\Liform\Transformer\BooleanTransformer"
-                 parent="Limenius\Liform\Transformer\AbstractTransformer">
-            <tag name="liform.transformer" form_type="checkbox" widget="checkbox"/>
-        </service>
     </services>
 
 </container>
