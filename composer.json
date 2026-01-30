@@ -15,6 +15,7 @@
     }
   },
   "require": {
+    "symfony/form": "^7.4",
     "startsevdenis/liform": "^0.17.1|^0.18.0"
   },
   "minimum-stability": "stable"
